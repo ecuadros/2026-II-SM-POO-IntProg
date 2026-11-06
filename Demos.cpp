@@ -13,5 +13,6 @@ void DemoFuncionesMatematicas(){
     cout << "MultiplicaciónF: " << multiplicacion(x, y) << endl;
     cout << "DivisiónF: " << division(x, y) << endl;
     cout << "MóduloF: " << modulo(x, y) << endl;
-    cout << "Negativo: "<< neg(x)<<endl;
+    cout<< "Negativo:  " <<neg(x)<< endl;
+
 }
