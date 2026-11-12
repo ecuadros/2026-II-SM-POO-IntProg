@@ -6,8 +6,6 @@ using namespace std;
 
 // Implementacion
 void DemoFuncionesMatematicas(){
-    int a = 5;
-
     T x = 10;
     T y = 3;
 
