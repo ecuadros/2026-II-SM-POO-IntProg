@@ -2,19 +2,16 @@
 #include "aritmetica.h"
 using namespace std;
 
-T suma(T a, T b) {
-    return a + b;
-}
 
-T resta(T a, T b) {
+T1 resta(T1 a, T1 b) {
     return a - b;
 }
 
-T multiplicacion(T a, T b) {
+T1 multiplicacion(T1 a, T1 b) {
     return a * b;
 }
 
-T division(T a, T b) {
+T1 division(T1 a, T1 b) {
     if (b == 0) {
         cerr << "Error: División por cero." << endl;
         return 0; // O manejar el error de otra manera
@@ -22,7 +19,7 @@ T division(T a, T b) {
     return a / b;
 }
 
-T modulo(T a, T b) {
+T1 modulo(T1 a, T1 b) {
     if (b == 0) {
         cerr << "Error: Módulo por cero." << endl;
         return 0; // O manejar el error de otra manera
@@ -30,6 +27,6 @@ T modulo(T a, T b) {
     return a % b;
 }
 
-T neg(T a){
+T1 neg(T1 a){
     return -a;
 }

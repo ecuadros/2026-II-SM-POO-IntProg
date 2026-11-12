@@ -3,12 +3,16 @@
 
 #include "types.h"
 
-T suma(T a, T b);
-T resta(T a, T b);
-T multiplicacion(T a, T b);
-T division(T a, T b);
-T modulo(T a, T b);
+template <typename T>
+T suma(T a, T b) {
+    return a + b;
+}
 
-T neg(T a);
+T1 resta(T1 a, T1 b);
+T1 multiplicacion(T1 a, T1 b);
+T1 division(T1 a, T1 b);
+T1 modulo(T1 a, T1 b);
+
+T1 neg(T1 a);
 
 #endif // __ARITMETICA_H__
