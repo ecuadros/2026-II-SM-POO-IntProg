@@ -1,6 +1,6 @@
 CXX      := g++
 CXXFLAGS := -std=c++23
-TARGET   := main.exe
+TARGET   := main
 SRCS     := main.cpp Demos.cpp aritmetica.cpp
 HEADERS  := Demos.h aritmetica.h
 

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Demos.h"
 #include "aritmetica.h"
+#include "types.h"
 using namespace std;
 
 // Implementacion
