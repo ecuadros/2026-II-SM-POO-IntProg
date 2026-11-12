@@ -6,8 +6,10 @@ using namespace std;
 
 // Implementacion
 void DemoFuncionesMatematicas(){
-    int x = 10;
-    int y = 3;
+    int a = 5;
+
+    T x = 10;
+    T y = 3;
 
     cout << "SumaF: " << suma(x, y) << endl;
     cout << "RestaF: " << resta(x, y) << endl;

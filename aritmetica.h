@@ -3,12 +3,12 @@
 
 #include "types.h"
 
-int suma(int a, int b);
-int resta(int a, int b);
-int multiplicacion(int a, int b);
-int division(int a, int b);
-int modulo(int a, int b);
+T suma(T a, T b);
+T resta(T a, T b);
+T multiplicacion(T a, T b);
+T division(T a, T b);
+T modulo(T a, T b);
 
-int neg(int a);
+T neg(T a);
 
 #endif // __ARITMETICA_H__
